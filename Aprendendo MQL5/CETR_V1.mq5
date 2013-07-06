@@ -30,6 +30,7 @@ void OnDeinit(const int reason)
 void OnTick()
   {
 //---
+    Correlacao c = new Correlacao ;
    
   }
 //+------------------------------------------------------------------+
