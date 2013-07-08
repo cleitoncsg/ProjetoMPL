@@ -30,7 +30,9 @@ void OnDeinit(const int reason)
 void OnTick()
   {
 //---
-    Correlacao c = new Correlacao ;
+    private: c =  new Correlacao ;
+    
+   
    
   }
 //+------------------------------------------------------------------+
