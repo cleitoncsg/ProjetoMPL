@@ -21,7 +21,7 @@ Correlacao:: Correlacao(){}
 
 Correlacao:: ~Correlacao(){}
 
-Correlacao calculo(double){
+double calculo(void){
 
    return 0;
 }
