@@ -13,8 +13,8 @@ class Correlacao{
    public: 
       Correlacao();
       ~Correlacao();
-   private:
-      double calculo(void);
+   public:
+      Correlacao calculo(void);
 };
 
 Correlacao:: Correlacao(){}
@@ -25,4 +25,6 @@ double calculo(void){
 
    return 0;
 }
+
+double ~calculo(void)
 

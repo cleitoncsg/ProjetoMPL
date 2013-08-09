@@ -16,7 +16,7 @@ void OnTick()
   {
 //---
     Correlacao c;
-     new Correlacao;
+    
     
     
   }
