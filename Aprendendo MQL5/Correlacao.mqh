@@ -10,11 +10,13 @@
 
 
 class Correlacao{
-   public: 
-      Correlacao();
-      ~Correlacao();
+
    public:
       Correlacao calculo(void);
+   public: 
+      Correlacao(calculo(void));
+      ~Correlacao(calculo(void));
+   
 };
 
 Correlacao:: Correlacao(){}
