@@ -8,7 +8,6 @@
 #property link      "http://www.softwarecsg.com.br"
 #property version   "1.00"
 
-
 class Correlacao{
    public: 
       Correlacao();
@@ -17,7 +16,9 @@ class Correlacao{
       Correlacao calculo(void);
 };
 
-Correlacao:: Correlacao(){}
+Correlacao:: Correlacao(){
+ return 0;
+}
 
 Correlacao:: ~Correlacao(){}
 
