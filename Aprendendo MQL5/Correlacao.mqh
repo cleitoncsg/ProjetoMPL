@@ -16,9 +16,7 @@ class Correlacao{
       Correlacao calculo(void);
 };
 
-Correlacao:: Correlacao(){
- return 0;
-}
+Correlacao:: Correlacao(){}
 
 Correlacao:: ~Correlacao(){}
 
