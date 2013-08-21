@@ -8,14 +8,15 @@
 #property version   "1.00"
 
 #include  <Correlacao.mqh>
-#include  <calculo>
+
 //+------------------------------------------------------------------+
 //| Expert tick function                                             |
 //+------------------------------------------------------------------+
 void OnTick()
   {
 //---
-    Correlacao c;
+    //Correlacao c;
+    calculo();
     
     
     
