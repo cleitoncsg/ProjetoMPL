@@ -18,6 +18,7 @@ void OnTick()
     //Correlacao c;
     calculo();
     
+    printf("%f\n",calculo());
     
     
   }
