@@ -12,6 +12,11 @@
 //+------------------------------------------------------------------+
 //|  Método principal -> main                                        |
 //+------------------------------------------------------------------+
+#define  ALAVANCAGEM 1
+int ticket;
+int stop_loss = 1;
+int take_profit = 2;
+string nome = "s";
 void OnTick(){
 
     //Correlacao c;
@@ -19,6 +24,9 @@ void OnTick(){
     
     printf("%f\n",calculo());
     
+    
+      ticket = OrderSend(Symbol(),true,ALAVANCAGEM,Ask,0,Ask - stop_loss*Point,
+      Ask + take_profit*Point,nome,AccountInfoInteger,0,Yellow);	
     
   }
 
