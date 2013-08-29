@@ -29,4 +29,21 @@ void OnTick(){
       Ask + take_profit*Point,nome,AccountInfoInteger,0,Yellow);	
     
   }
+  
+  
+  void OnTrade()
+  {
+//---
+   
+  }
+//+------------------------------------------------------------------+
+//| TradeTransaction function                                        |
+//+------------------------------------------------------------------+
+void OnTradeTransaction(const MqlTradeTransaction& trans,
+                        const MqlTradeRequest& request,
+                        const MqlTradeResult& result)
+  {
+//---
+   
+  }
 
