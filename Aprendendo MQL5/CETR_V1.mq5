@@ -25,25 +25,15 @@ void OnTick(){
     printf("%f\n",calculo());
     
     
-      ticket = OrderSend(Symbol(),true,ALAVANCAGEM,Ask,0,Ask - stop_loss*Point,
-      Ask + take_profit*Point,nome,AccountInfoInteger,0,Yellow);	
-    
   }
   
   
-  void OnTrade()
-  {
-//---
-   
-  }
-//+------------------------------------------------------------------+
-//| TradeTransaction function                                        |
-//+------------------------------------------------------------------+
+void OnTrade(){}
+
 void OnTradeTransaction(const MqlTradeTransaction& trans,
                         const MqlTradeRequest& request,
-                        const MqlTradeResult& result)
-  {
-//---
+                        const MqlTradeResult& result){
    
-  }
+   
+ }
 
