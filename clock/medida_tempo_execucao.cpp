@@ -8,10 +8,13 @@ int main(){
    double tempo_gasto;
    t0 = clock();
 
-			for(int i = 0; i < 1000; i++)
+			for(; /**/; ){
+     tf = clock();
+     tempo_gasto = ( (tf - t0) ) / CLOCKS_PER_SEC;
+     
+     if(tempo_gasto == 5) break;
+			}
 			
-   tf = clock();
-   tempo_gasto = ( (tf - t0) ) / CLOCKS_PER_SEC;
    printf("Tempo gasto: %lf s\n", tempo_gasto);
 
 				system("pause");
