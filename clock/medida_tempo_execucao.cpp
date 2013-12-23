@@ -12,6 +12,7 @@ int main(){
 			for(; /**/; ){
      tf = clock();
      tempo_gasto = ( (tf - t0) ) / CLOCKS_PER_SEC;
+					sleep(1,1);
 					printf("\a");
      if(tempo_gasto == 5) break;
 			}
